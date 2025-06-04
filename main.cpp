@@ -2,17 +2,6 @@
 #include <vector>
 #include <string>
 
-/*
- * TODO:
- * implement compound class
- * implement function prototypes
- * create workable terminal UI
- *
- * REACH:
- * latex rendering
- * higher qualilty user interface - potentially GUI
- */
-
 /* 
  * function prototype descriptions:
  *
