@@ -6,4 +6,4 @@ clang++ -o parse.o       -include ../includes/chem.hpp -cpp ../src/chem/parse.cp
 clang++ -o therm_eval.o  -include ../includes/chem.hpp -cpp ../src/chem/therm_eval.cpp
 
 # link into final executable
-clang++ -o chemproj balance.o eq_eval.o format_expr.o parse.o therm_eval.o
+clang++ -o chemproj -O3 balance.o eq_eval.o format_expr.o parse.o therm_eval.o -Wall
